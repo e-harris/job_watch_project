@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/ubuntu/job_watch_project":{"guestpath":"/home/ubuntu/job_watch_project","hostpath":"/Users/elliotharris/code/job_watch_project","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/elliotharris/code/job_watch_project","disabled":false,"__vagrantfile":true}}}
