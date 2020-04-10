@@ -14,17 +14,3 @@ end
 describe port(80), :skip do
   it { should_not be_listening }
 end
-
-
-describe package 'python3-pip' do
-  it { should be_installed }
-end
-
-describe package('pytest'), :skip do
-  it { should be_installed }
-  its('version') { should cmp > '5' }
-end
-
-describe directory '/home/vagrant/Downloads' do
-  it { should create_directory }
-end

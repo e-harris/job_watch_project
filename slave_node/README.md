@@ -1,4 +1,4 @@
-# name
+# slave_node
 
 TODO: Enter the cookbook description here.
 

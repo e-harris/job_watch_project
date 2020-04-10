@@ -4,13 +4,13 @@
 # https://docs.chef.io/policyfile.html
 
 # A name that describes what the system you're building with Chef does.
-name 'name'
+name 'slave_node'
 
 # Where to find external cookbooks:
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list 'name::default'
+run_list 'slave_node::default'
 
 # Specify a custom source for a single cookbook:
-cookbook 'name', path: '.'
+cookbook 'slave_node', path: '.'
