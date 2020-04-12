@@ -18,7 +18,7 @@ file '/home/ubuntu/requirements.txt' do
   action :create_if_missing
 end
 
-directory '/home/vagrant/Downloads' do
+directory '/home/ubuntu/Downloads' do
   owner 'root'
   group 'root'
   mode '0777'
