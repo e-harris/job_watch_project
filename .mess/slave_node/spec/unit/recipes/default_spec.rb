@@ -15,19 +15,18 @@ describe 'name::default' do
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
     end
-  end
 
-  it 'Should install pip3' do
-    expect(chef_run).to install_package 'python3-pip'
-  end
+    it 'Should install pip3' do
+      expect(chef_run).to install_package 'python3-pip'
+    end
 
   # it 'Should run requirements.txt', :skip do
   #   expect(chef_run).to pip3install '/home/ubuntu/requirements.txt'
   # end
 
-  it "Should create a Downloads directory" do
-    expect(chef_run).to create_directory '/home/vagrant/Downloads'
+    it "Should create a Downloads directory" do
+      expect(chef_run).to create_directory '/home/vagrant/Downloads'
+    end
   end
-
 
 end

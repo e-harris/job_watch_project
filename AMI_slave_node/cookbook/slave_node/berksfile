@@ -1,3 +1,0 @@
-source 'https://supermarket.chef.io'
-
-cookbook 'slave_node', git: 'git@github.com:e-harris/job_watch_project.git'
